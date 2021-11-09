@@ -159,9 +159,9 @@ export default function App() {
         Count of records: {sortedData.length} <br />{" "}
         <pre
           style={{
-            fontSize: ".5em",
+            fontSize: "1rem",
             padding: 8,
-            background: "blue",
+            background: "gray",
             color: "#333",
             fontWeight: 200
           }}
