@@ -4,12 +4,15 @@
 
 .btn {
   width: 125px;
-  background: rebeccapurple;
+  background: orangered;
   color: rgb(221, 189, 253);
   padding: 8px;
   margin-right: 8px;
   border-radius: 3px;
   border: none;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px skyblue;
+  justify-content: space-around;
 }
 
 .btn strong {

@@ -13,6 +13,16 @@ const records = [
   { id: 13, title: "Kiwis", date: "02/02/1999" },
   { id: 13, title: "NullTest01", date: undefined },
   { id: 13, title: null, date: null },
+  { id: null, title: "NullTest02", date: null },
+  { id: 12, title: "Apples", date: "06/28/2019" },
+  { id: 32, title: "Oranges", date: "12/12/2018" },
+  { id: 67, title: "Pears", date: "06/22/2018" },
+  { id: 89, title: "Grapes", date: "08/01/2019" },
+  { id: 31, title: "Strawberries", date: "02/22/2002" },
+  { id: 10, title: "Bananas", date: "02/21/2019" },
+  { id: 13, title: "Kiwis", date: "02/02/1999" },
+  { id: 13, title: "NullTest01", date: undefined },
+  { id: 13, title: null, date: null },
   { id: null, title: "NullTest02", date: null }
 ];
 
@@ -151,7 +161,7 @@ export default function App() {
           style={{
             fontSize: ".5em",
             padding: 8,
-            background: "#eee",
+            background: "blue",
             color: "#333",
             fontWeight: 200
           }}
